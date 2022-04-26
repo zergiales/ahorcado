@@ -1,0 +1,87 @@
+
+
+@font-face{
+    font-family: apple;
+    src: url(../fonts/SF-UI-Display-Regular.otf);
+}
+*{
+    box-sizing: border-box;
+    font-family: apple;
+}
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color:#fff;
+    letter-spacing: 2.5px;
+
+}
+.container{
+    margin-right: 30px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius:25px;
+    background-color: #0B7AE3;
+    box-shadow: rgba(46, 229, 157, 0.4) 3px 5px 5px;
+}
+.container>#intentos{
+    font-size: 45px;
+}
+
+
+.contenedor{
+    background-color: #0B7AE3;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(46, 229, 157, 0.4) 3px 5px 5px;
+}
+#resultado{
+    font-size: 1.5em;
+}
+#palabra{
+    font-size: 1.5em;
+}
+button, input{
+    margin: 10px;
+}
+input{
+color: #000;
+border-radius: 45px;
+border: none;
+ padding: 1.3em 3em;
+ font-size: 14px;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+ outline: none;
+}
+button {
+ padding: 1.3em 3em;
+ font-size: 12px;
+    letter-spacing: 2.5px;
+ text-transform: uppercase;
+ border: none;
+ border-radius: 45px;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+ outline: none;
+}
+
+input:hover,button:hover {
+ background-color: #2EE59D;
+ box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+ color: #fff;
+ transform: translateY(-7px);
+}
+
+button:active {
+ transform: translateY(-1px);
+}
